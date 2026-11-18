@@ -3,8 +3,8 @@
 # Template for Casks/megatron.rb in Megatron-HQ/homebrew-tap. homebrew-tap.yml substitutes the
 # version and sha256 placeholders from each published release; don't hand-edit the tap's copy.
 cask "megatron" do
-  version "0.2.2"
-  sha256 "e102271e6bb0168a0021c4bde7430b425772348a66b9fbdb0bd3db7aa4cbd799"
+  version "0.3.0"
+  sha256 "cfba0e934cdf2551d6be19efd792cc4ad23dc5b3567b1233e11fa0e2cc21b7f9"
 
   url "https://github.com/Megatron-HQ/Megatron/releases/download/v#{version}/megatron-#{version}-mac.zip"
   name "Megatron"
